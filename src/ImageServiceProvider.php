@@ -65,9 +65,9 @@ class ImageServiceProvider extends ServiceProvider
     private function getProvider()
     {
         if ($this->app instanceof LumenApplication) {
-            $provider = '\Intervention\Image\ImageServiceProviderLumen';
+            $provider = '\Rsthegeek\LaravelInterventionImageV3\ImageServiceProviderLumen';
         }  else {
-            $provider = '\Intervention\Image\ImageServiceProviderLaravelRecent';
+            $provider = '\Rsthegeek\LaravelInterventionImageV3\ImageServiceProviderLaravelRecent';
         }
 
         return new $provider($this->app);
