@@ -1,0 +1,22 @@
+{
+    "name": "rsthegeek/laravel-intervention-v3",
+    "description": "An Intervention/image v3 wrapper for laravel..",
+    "type": "library",
+    "require": {
+        "intervention/image": "^3.2",
+        "illuminate/support": "^10.38"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Rsthegeek\\LaravelInterventionImageV3\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "MohammadR. Fekri",
+            "email": "fekri.m@icloud.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
