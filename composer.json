@@ -18,5 +18,15 @@
             "email": "fekri.m@icloud.com"
         }
     ],
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rsthegeek\\LaravelInterventionImageV3\\ImageServiceProvider"
+            ],
+            "aliases": {
+                "Image": "Rsthegeek\\LaravelInterventionImageV3\\Facades\\Image"
+            }
+        }
+    }
 }
