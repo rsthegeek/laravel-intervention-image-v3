@@ -3,8 +3,8 @@
     "description": "An Intervention/image v3 wrapper for laravel.",
     "type": "library",
     "require": {
-        "intervention/image": "^3.2",
-        "illuminate/support": "^10.38"
+        "intervention/image": "^3.10",
+        "illuminate/support": "^11.0"
     },
     "license": "MIT",
     "autoload": {
